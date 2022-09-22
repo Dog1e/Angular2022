@@ -12,10 +12,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: MenuComponent },
   { path: 'menu-component', component: MenuComponent },
   { path: 'gallery-component', component: GalleryComponent },
   { path: 'contact-component', component: ContactComponent },
+  { path: '',   redirectTo: '/menu-component', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent}
 ];
 
