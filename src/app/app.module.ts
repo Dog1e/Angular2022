@@ -13,9 +13,9 @@ import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: MenuComponent },
-  { path: 'Menu', component: MenuComponent },
-  { path: 'Gallery', component: GalleryComponent },
-  { path: 'Contact', component: ContactComponent },
+  { path: 'menu-component', component: MenuComponent },
+  { path: 'gallery-component', component: GalleryComponent },
+  { path: 'contact-component', component: ContactComponent },
   { path: '**', component: PageNotFoundComponent}
 ];
 
